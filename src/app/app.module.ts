@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CustomDetailModule } from "./custom-detail/custom-detail.module";
+import { CustomDetail2Module } from './custom-detail/custom-detail2.module';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +13,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CustomDetailModule,
+    CustomDetail2Module
   ],
   providers: [],
   bootstrap: [AppComponent]
